@@ -5,6 +5,7 @@ from create_bot import dp
 async def on_startup(_):
     print('Бот вышел в онлайн')
 
+
 from handlers import client, admin, other
 
 client.register_handlers_client(dp)
